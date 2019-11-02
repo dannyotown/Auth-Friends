@@ -28,24 +28,26 @@ function Login() {
   };
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <h1>Login</h1>
-        <input
-          type="text"
-          name="username"
-          value={data.username}
-          onChange={handleChange}
-          placeholder="username"
-        />
-        <input
-          type="password"
-          name="password"
-          value={data.password}
-          onChange={handleChange}
-          placeholder="password"
-        />
-        <button type="submit">Submit</button>
-      </form>
+      <header className="App-header">
+        <form onSubmit={handleSubmit}>
+          <h1>Login</h1>
+          <input
+            type="text"
+            name="username"
+            value={data.username}
+            onChange={handleChange}
+            placeholder="username"
+          />
+          <input
+            type="password"
+            name="password"
+            value={data.password}
+            onChange={handleChange}
+            placeholder="password"
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </header>
     </>
   );
 }

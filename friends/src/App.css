@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -7,8 +9,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,28 @@ button {
   margin: 0 auto;
   padding: 2%;
   margin-top: 1%;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.CardBox {
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 30%;
+  height: 175px;
+  border: 1px solid white;
+  color: white;
+  margin: 2%;
 }
