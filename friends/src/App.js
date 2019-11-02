@@ -26,6 +26,7 @@ function App() {
       <Route exact path="/signin" component={Login} />
       <ProtectedRoute exact path="/friends" component={Friends} />
     </div>
+    //test
   );
 }
 
